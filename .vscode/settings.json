@@ -1,0 +1,6 @@
+{
+    // Para que aparezca el mapa de codigo en la columna de derecha
+    "editor.minimap.enabled": true,
+    // Para que formatee las líneas 
+    "editor.wordWrap": "on"
+}

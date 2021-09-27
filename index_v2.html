@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/img/favicon.png" />
+    <link rel="stylesheet" href="css/style_v2.css" />
+    <title>Mike's Web Design website | Mike & Co.</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <a href="#" class="logo">MassMood</a>
+
+      <ul>
+        <li>
+          <a href="#home" onclick="toggle();" onclick="toggle();">Inicio</a>
+        </li>
+
+        <li>
+          <a href="#mission" onclick="toggle();">Nosotros</a>
+
+          <ul class="dropdown">
+            <li><a href="#mission" onclick="toggle();">Misión</a></li>
+            <li><a href="#about" onclick="toggle();">Quienes Somos</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#services" onclick="toggle();">Servicios</a>
+
+          <ul class="dropdown">
+            <li><a href="#servicios" onclick="toggle();">Que Hacemos</a></li>
+            <li><a href="#clientes" onclick="toggle();">Clientes</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#portfolio" onclick="toggle();">Portafolio</a></li>
+
+        <li><a href="#team" onclick="toggle();">Equipo</a></li>
+
+        <li><a href="#contact" onclick="toggle();">Contacto</a></li>
+      </ul>
+
+      <div class="toggle" onclick="toggle();"></div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner" id="home">
+      <div class="videoBx1">
+        <div class="videoBx2">
+          <video src="img/video-background 2.mp4" muted autoplay loop></video>
+        </div>
+
+        <div class="video_Velo"></div>
+
+        <div class="videoTxt">
+          <p class="title">
+            Diseñamos <span>Marcas</span><br /><br />
+            <small>...y construimos vidas</small>
+          </p>
+        </div>
+
+        <!-- <h2>
+        Diseñamos <span>Marcas</span><br /><br />
+        <small>...y construimos vidas</small>
+      </h2> -->
+      </div>
+    </section>
+
+    <!-- Mision -->
+    <section class="sec" id="mission">
+      <div class="mision">
+        <div class="textosBx">
+          <h2 class="misionTitle">Convertimos tus sueños en realidad</h2>
+          <br />
+          <p class="misionTxt">
+            Construimos tu presencia digital tal como la soñaste
+          </p>
+
+          <p class="misionTxt">
+            ...y lo mejor, creceras y te expandiras a través de Internet,
+            permitiéndote acceder a vastas comunidades de personas desde
+            cualquier PC, laptop o smartphone del planeta!
+          </p>
+          <a href="#contact" class="btn boton">Contáctanos</a>
+        </div>
+
+        <div class="imgBx">
+          <img src="img/mision7.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About us -->
+    <section class="sec" id="about">
+      <div class="about">
+        <div class="txtBx">
+          <h2 class="aboutTitle">Quienes Somos</h2>
+          <br />
+          <p class="aboutTxt">
+            Un grupo de profesionales multi-disciplinario, especializados en el
+            diseño y desarrollo de soluciones digitales.
+          </p>
+          <p class="aboutTxt">
+            Abocados con pasión a concretar los sueños de nuestros clientes y en
+            el proceso a apoyarlos en su gesión diaria.<br /><br />
+            Nuestra misión es coadyuvar al exito de nuestros clientes, con
+            seriedad, responsabilidad y profesionalismo!
+          </p>
+          <a href="#contact" class="btn boton">Contáctanos</a>
+        </div>
+
+        <div class="imgBx">
+          <img src="img/mision3.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <!-- <section class="sec" id="services">
+      <div class="content">
+        <div class="mxw800p">
+          <h2 class="servTitle">Que Hacemos</h2>
+        </div>
+        <div class="services">
+          <div class="box">
+            <div class="iconBx">
+              <img src="img/icon_design1.png" alt="" />
+            </div>
+            <div class="content">
+              <h2>Diseño</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas molestias minus molestiae illo voluptate maxime.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="iconBx">
+              <img src="img/icon_tuerca1.png" alt="" />
+            </div>
+            <div class="content">
+              <h2>Desarrollo</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas molestias minus molestiae illo voluptate maxime.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="iconBx">
+              <img src="img/icon_branding1.png" alt="" />
+            </div>
+            <div class="content">
+              <h2>Creación de Marcas</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas molestias minus molestiae illo voluptate maxime.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Services Cards -->
+    <section class="sec services" id="servicios">
+      <div class="content">
+        <div class="mxw800p">
+          <h2 class="servTitle">Que Hacemos</h2>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <h3 class="title">Estrategia y Construcción<br />MARCA</h3>
+            <div class="bar">
+              <div class="emptybar"></div>
+              <div class="filledbar"></div>
+            </div>
+            <div class="circle">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <circle class="stroke" cx="60" cy="60" r="50" />
+              </svg>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="title">Diseño y Desarrollo<br />WEB</h3>
+            <div class="bar">
+              <div class="emptybar"></div>
+              <div class="filledbar"></div>
+              <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                quam sunt nostrum natus, enim sed esse aut ea.
+              </div>
+            </div>
+            <div class="circle">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <circle class="stroke" cx="60" cy="60" r="50" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="title">Diseño y Desarrollo<br />Social Media</h3>
+            <div class="bar">
+              <div class="emptybar"></div>
+              <div class="filledbar"></div>
+            </div>
+            <div class="circle">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <circle class="stroke" cx="60" cy="60" r="50" />
+              </svg>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="title">Campañas<br />Publicitarias</h3>
+            <div class="bar">
+              <div class="emptybar"></div>
+              <div class="filledbar"></div>
+            </div>
+            <div class="circle">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <circle class="stroke" cx="60" cy="60" r="50" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLIENTES -->
+    <section class="sec clients" id="clientes">
+      <div class="content">
+        <div class="contenedor-clientes">
+          <div class="box-titulo-clientes">
+            <div class="posicion-box-texto">
+              <p class="parrafo1-clientes">CLIENTES QUE</p>
+              <h2 class="parrafo2-clientes">CONFÍAN</h2>
+              <p class="parrafo3-clientes">EN NOSOTROS</p>
+            </div>
+          </div>
+          <div class="slider">
+            <div class="slide-track">
+              <div class="slide">
+                <img
+                  src="img/Clientes/logo1.png"
+                  height="250"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="img/Clientes/logo2.png"
+                  height="250"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="img/Clientes/logo3.png"
+                  height="250"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="img/Clientes/logo4.png"
+                  height="250"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="img/Clientes/logo5.png"
+                  height="250"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="img/Clientes/logo6.png"
+                  height="250"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="img/Clientes/logo7.png"
+                  height="250"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="img/Clientes/logo8.png"
+                  height="250"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="img/Clientes/logo9.png"
+                  height="250"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="img/Clientes/logo10.png"
+                  height="250"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="img/Clientes/logo11.png"
+                  height="250"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="img/Clientes/logo12.png"
+                  height="250"
+                  width="250"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="sec" id="portfolio">
+      <div class="content">
+        <div class="mxw800p">
+          <h3>Trabajos Recientes</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+            nemo hic aut accusantium reprehenderit deserunt quia velit possimus.
+          </p>
+        </div>
+        <div class="workBx">
+          <div class="brand">
+            <a href="#"><h2>Nombre del Cliente</h2></a>
+          </div>
+          <div class="brand">
+            <a href="#"><h2>Nombre del Cliente</h2></a>
+          </div>
+          <div class="brand">
+            <a href="#"><h2>Nombre del Cliente</h2></a>
+          </div>
+          <div class="brand">
+            <a href="#"><h2>Nombre del Cliente</h2></a>
+          </div>
+          <div class="brand">
+            <a href="#"><h2>Nombre del Cliente</h2></a>
+          </div>
+          <div class="brand">
+            <a href="#"><h2>Nombre del Cliente</h2></a>
+          </div>
+          <div class="brand">
+            <a href="#"><h2>Nombre del Cliente</h2></a>
+          </div>
+          <div class="brand">
+            <a href="#"><h2>Nombre del Cliente</h2></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="sec" id="team">
+      <div class="content">
+        <div class="mxw800p">
+          <h3>Nuestro Equipo</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+            nemo hic aut accusantium reprehenderit deserunt quia velit possimus.
+          </p>
+        </div>
+        <div class="teamBx">
+          <div class="member">
+            <div class="imgBx">
+              <img src="img/team1.jpg" alt="" />
+            </div>
+            <div class="details">
+              <h2>Marianna Piaggo<br /><span>Director Creativo</span></h2>
+            </div>
+          </div>
+          <div class="member">
+            <div class="imgBx">
+              <img src="img/team2.jpg" alt="" />
+            </div>
+            <div class="details">
+              <h2>Leonardo Azuaje<br /><span>Desarrollador Web</span></h2>
+            </div>
+          </div>
+          <div class="member">
+            <div class="imgBx">
+              <img src="img/team3.jpg" alt="" />
+            </div>
+            <div class="details">
+              <h2>Rosemary Bianchi<br /><span>Diseñador Web</span></h2>
+            </div>
+          </div>
+          <div class="member">
+            <div class="imgBx">
+              <img src="img/team4.jpg" alt="" />
+            </div>
+            <div class="details">
+              <h2>Andrea Zubillaga<br /><span>Fotográfo</span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="container">
+          <div class="contactInfo">
+            <div>
+              <h2>Información de Contacto</h2>
+              <ul class="info">
+                <li>
+                  <span><img src="img/location.png" alt="" /></span>
+                  <span>
+                    Av. Veracruz, Edif. Las Palmas Piso 3, Ofic.3-4, Urb. Las
+                    Mercedes, Caracas, Venezuela
+                  </span>
+                </li>
+                <li>
+                  <span><img src="img/mail.png" alt="" /></span>
+                  <span> mike.colmenaresg@gmail.com </span>
+                </li>
+                <li>
+                  <span><img src="img/phone.png" alt="" /></span>
+                  <span> (+58) 424.339.17.29</span>
+                </li>
+              </ul>
+            </div>
+            <ul class="sci">
+              <li>
+                <a
+                  href="https://twitter.com/@cycsingenieria?lang=en"
+                  target="_blank"
+                  class="social_Icon_Link"
+                  ><span class="fab fa-twitter"></span
+                ></a>
+                <a
+                  href="https://www.instagram.com/cycsingenieria"
+                  target="_blank"
+                  class="social_Icon_Link"
+                  ><span class="fab fa-instagram"></span
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/carlos-colmenares-a-5a717375/"
+                  target="_blank"
+                  class="social_Icon_Link"
+                  ><span class="fab fa-linkedin-in"></span
+                ></a>
+                <a
+                  href="https://api.whatsapp.com/send?phone=0414.324.63.96&text=¡Hola, somos CYCS Ingeniería e Instalaciones! Como te podemos ayudar? Escríbenos, nos escanta poder servirte..."
+                  target="_blank"
+                >
+                  <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                </a>
+                <!-- <a href="#"><img src="img/twitter.png" alt="" /></a>
+              <a href="#"><img src="img/instagram.png" alt="" /></a>
+              <a href="#"><img src="img/facebook.png" alt="" /></a>
+              <a href="#"><img src="img/linkedIn.png" alt="" /></a> -->
+              </li>
+            </ul>
+          </div>
+          <div class="contactForm">
+            <h2>Envíanos un Mensaje</h2>
+            <div class="formBox">
+              <div class="inputBox w50">
+                <input type="text" required />
+                <span>Nombre</span>
+              </div>
+              <div class="inputBox w50">
+                <input type="text" required />
+                <span>Apellido</span>
+              </div>
+              <div class="inputBox w50">
+                <input type="email" required />
+                <span>Correo Electrónico</span>
+              </div>
+              <div class="inputBox w50">
+                <input type="text" required />
+                <span>Número Celular</span>
+              </div>
+              <div class="inputBox w100">
+                <textarea required></textarea>
+                <span>Escribe tú mensaje aqui...</span>
+              </div>
+              <div class="inputBox w100">
+                <input type="submit" value="Enviar" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="mxw800p">
+          <h3><span>Te Esperamos...!</span> Contáctanos</h3>
+        </div> -->
+        <!-- <div class="contactForm">
+          <form action="">
+            <div class="row100">
+              <div class="inputBx50">
+                <input type="text" name="" placeholder="Nombre Completo" />
+              </div>
+              <div class="inputBx50">
+                <input type="text" name="" placeholder="Correo Electrónico" />
+              </div>
+            </div>
+            <div class="row100">
+              <div class="inputBx100">
+                <textarea name="" placeholder="Escriba su Mensaje"></textarea>
+              </div>
+            </div>
+            <div class="row100">
+              <div class="inputBx100">
+                <input type="submit" value="Enviar" />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="sci">
+          <ul>
+            <li>
+              <a href="#"><img src="img/Twitter.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/Instagram.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/LinkedIn.png" alt="" /></a>
+            </li>
+          </ul>
+        </div> -->
+        <p class="copyright">
+          Copyright @2021
+          <a href="https://cycs.netlify.app"> Carlos Colmenares A.</a> All
+          rights reserved
+        </p>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+      // Esta rutina crea una clase CSS (.sticky), la cual mover el cursor, tanto el background como otras características del menu de navegación varian, produciendose un efecto genial!
+
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+
+      // Esta rutina administra el encendido y apagado del botón hamburguesa de navegación (en modo responsive).
+
+      function toggle() {
+        const header = document.querySelector("header");
+        header.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
