@@ -7,11 +7,14 @@
 <br>
 
 <p style="text-align:justify; font-size:10px">
-This is a Basic Template which include:
+This is a very complete HTM & CSS Template which include:
 
-- Background hero image
+- Background hero video
 - Social media icons
-- Cards Definitions
-- Grid of images
+- hero images with animations hover effects
+- Cards Definitions with animations hover effects
+- Grid of images with animations hover effects
+- Use of animations libraries
 - HTML Form for contact
+- etc...
 </p>
