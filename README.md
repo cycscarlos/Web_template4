@@ -1,4 +1,4 @@
-![zCoder Banner!](img/miBanner.png)
+<h2>Responsive, and Modern HTML, CSS & Javascript website</h2>
 
 <br>
 
@@ -6,15 +6,28 @@
 
 <br>
 
-<p style="text-align:justify; font-size:10px">
-This is a very complete HTM & CSS Template which include:
+![Website banner!](img/readme4.png)
 
-- Background hero video
-- Social media icons
-- hero images with animations hover effects
-- Cards Definitions with animations hover effects
-- Grid of images with animations hover effects
-- Use of animations libraries
-- HTML Form for contact
-- etc...
-</p>
+<br>
+
+Take a look at the website at the following link [Github Pages] (https://cycscarlos.github.io/Web_template4):
+
+<br>
+
+---
+
+<br>
+
+<h3>Its include the following features:</h3>
+
+<br>
+
+<ul>
+<li>Background images and video</li>
+<li>Change menu navigation background color on scroll</li>
+<li>Using of several CSS animation libraries for hover effects</li>
+<li>Using of several JavaScript libraries for smooth scrolling, animations, etc.</li>
+<li>Social media icons definitons</li>
+<li>Use of Flexbox & Grid technics</li>
+<li>Responsive design using Media Queries</li>
+</ul>
