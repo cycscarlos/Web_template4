@@ -30,4 +30,8 @@ Take a look at the website at the following link [Github Pages] (https://cycscar
 <li>Social media icons definitons</li>
 <li>Use of Flexbox & Grid technics</li>
 <li>Responsive design using Media Queries</li>
+<li>HTML Form for contact management through 3er-parties</li>
+<li>Contact form validation</li>
+<li>CSS Custom properties for a lot of effects, like colors, font-size, etc.</li>
+<li>Contact form email sending through external API</li>
 </ul>
